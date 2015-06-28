@@ -41,7 +41,7 @@ var Value = React.createClass({
 		}
 
 		return (
-			<div className="Select-item">
+			<div className="Select-item" style={this.props.option.style}>
 				<span className="Select-item-icon"
 					onMouseDown={this.blockEvent}
 					onClick={this.handleOnRemove}
